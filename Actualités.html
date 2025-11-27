@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+    window.addEventListener("scroll", () => {
+        const nav = document.querySelector("nav");
+        nav.classList.toggle("scrolled", window.scrollY > 50);
+    });
+    </script>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="biographie.html">Biographie</a>
+    <a href="Filmographie.html">Filmographie</a>
+    <a href="Réalisations.html">Réalisations</a>
+    <a href="Actualités.html">Actualités</a>
+</nav>
+
+<div class="section">
+    <h2>Actualités / Projets Récents</h2>
+
+    <img src="images/climber 5.webp" alt="Actualités">
+
+    <ul class="actus">
+        <li><strong>2023 - Projet "Impossible Climb"</strong> Préparation d'une ascension en solo encore plus difficile.</li>
+        <li><strong>2022 - Honnold Foundation</strong> Nouveaux projets d'énergie solaire en Afrique et Asie.</li>
+        <li><strong>2021 - Record mondial de vitesse</strong> Tentative pour battre un record sur une paroi extrême.</li>
+        <li><strong>2020 - Vie de famille</strong> Alex et Sanni McCandless attendent leur premier enfant.</li>
+        <li><strong>2020 - Projet documentaire</strong> Préparation d'un nouveau film sur ses projets et sa carrière.</li>
+    </ul>
+</div>
+
+</body>
+</html>
